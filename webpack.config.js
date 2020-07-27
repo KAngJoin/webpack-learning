@@ -8,8 +8,8 @@ module.exports = {
         port: 8000, // 端口
         progress: true, // 进度条
         contentBase: "./dist", // 哪一个文件夹
-        compress: true,
-        open: true
+        compress: true, // 压缩
+        open: true // 自动打开
     },
     mode: "development",//模式 "production"[default] | "development" | "none"
     entry: "./src/index.js",// 入口 String | Array<string> | Object
